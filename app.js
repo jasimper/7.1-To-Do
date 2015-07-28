@@ -40,8 +40,10 @@
 
         var del = function(task) {
         task.remove();
+        if(list.querySelectorAll('li').length === 0) {
+          hide.style.display = 'block';
+        }
         };
-
         form.reset()
 
       }
@@ -51,4 +53,4 @@
     }
   });
 
-})()
+})();
