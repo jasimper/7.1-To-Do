@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="todo">
+      <h1>Darth's To-Do</h1>
+      <form action="" method="POST" data-js="form">
+        <div>
+          <input class="todo__input" data-js="entry" type="text" placeholder="Enter task..." />
+        </div>
+        <div data-js="hide">
+          There are currently no tasks.
+          <br />
+          Please enter an item in the field above.
+        </div>
+        <ul class="todo__items" data-js="todoItems">
+
+        </ul>
+      </form>
+    </div>
+
+    <script src="app.js" async></script>
+  </body>
+</html>
