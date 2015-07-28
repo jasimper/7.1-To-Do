@@ -6,11 +6,11 @@
   var entry;
 
   form.addEventListener("keypress", function(event) {
-    if (event.charCode === 13) {
+    if (event.keyCode === 13) {
      event.preventDefault();
       var entry = document.querySelector("[data-js=entry]").value
       if( entry === "") {
-        alert("I'll choke you");
+        alert("You WILL enter a new task.");
       }
       else {
         var task = document.createElement("li");
