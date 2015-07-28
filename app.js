@@ -27,7 +27,7 @@
         var button = document.createElement("button");
         button.className += "todo__itemRemove";
         button.innerHTML = "&#x2717;";
-          task.addEventListener("click", function(e) {
+          button.addEventListener("click", function(e) {
           e.preventDefault();
           del(e.target.parentNode);
         });
