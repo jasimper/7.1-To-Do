@@ -18,7 +18,7 @@
 
         var checkbox = document.createElement("input")
         checkbox.type = "checkbox";
-        checkbox.setAttribute("for", entry)
+        checkbox.setAttribute("id", entry)
 
         var text = document.createElement("label");
         text.setAttribute("for", entry);
