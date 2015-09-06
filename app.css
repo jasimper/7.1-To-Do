@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  background: url(./images/deathstar.png) no-repeat center center fixed;
+  background-color: #000000;
+  background: url(./images/deathstar.png) no-repeat 80% 50% fixed;
 }
 html,
 body {
